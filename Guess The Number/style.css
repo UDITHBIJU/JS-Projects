@@ -169,8 +169,29 @@ h1 {
    .message{
      font-size: 11px;
    }
+   main{
+     height: 55vh;
+   }
+   
+     
+   }
+   .increment{
+     display: inline-flex;
+     gap: 75px;
+     
+   }
+   .new-btn{
+     height: 60px;
+     width: 60px;
+     border-radius: 50%;
+     font-size: 25px;
+     font-weight: 700;
+     position: relative;
+     left: 60px;
+     bottom: 40px;
+   }
   
-}
+
 @media  screen and (max-width:376px) {
 
   .guess{
@@ -210,5 +231,10 @@ h1 {
   .message{
     font-size: smaller;
     
+  }
+}
+@media  screen and (min-width:769px){
+  .increment{
+    display: none;
   }
 }
